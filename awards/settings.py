@@ -31,6 +31,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'bootstrap4',
     'signup',
 ]
 
@@ -105,7 +106,15 @@ USE_L10N = True
 
 USE_TZ = True
 
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale'),
+)
 
 # Static files (CSS, JavaScript, Images)
 
 STATIC_URL = '/static/'
+
+BOOTSTRAP4 = {
+    # 'set_placeholder': False,
+    # 'horizontal_label_class': 'col-sm-4', 'horizontal_field_class': 'col-sm-9',
+}

@@ -18,7 +18,7 @@
     <img src="{% static 'images/kanal_awards.png' %}" class="img-responsive margin" style="display:inline" width="350" height="350">
   </div>
 
-  <div class="container-fluid footer">
+  <div class="container-fluid desc">
     <div class="row">
       <div class="col-sm-6 offset-sm-3 text-center">
         <p>
@@ -29,13 +29,25 @@
         </p>
       </div>
     </div>
+  </div>
+
+  <div class="container-fluid register">
+    <div class="row">
+      <div class="col-sm-4 offset-sm-4 text-center">
+        <p>
+          پیام خود را در جشنواره ثبت کنید!
+        </p>
+      </div>
+    </div>
 
     <div class="row">
       <div class="col-sm-4 offset-sm-4 text-center">
-        <p>پیام خود را در این جشنواره ثبت کنید!</p>
-        <a href="#" class="btn btn-primary btn-lg">
-          ثبت‌نام
-        </a>
+        {% load bootstrap4 %}
+        <form action="/" method="post" class="form">
+          {% csrf_token %} {% bootstrap_form form layout='inline' %} {% buttons %}
+          <button type="submit" class="btn btn-primary">ثبت پیام</button>
+          {% endbuttons %}
+        </form>
       </div>
     </div>
   </div>

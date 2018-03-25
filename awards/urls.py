@@ -16,9 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from signup.views import index
+from signup.views import index, thanks
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index),
+    path('thanks/', thanks),
 ]

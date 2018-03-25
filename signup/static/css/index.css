@@ -13,8 +13,21 @@ body {
     margin-bottom: 45px;
 }
 
-.footer {
+.desc {
+    background-color: darkslategray;
+    color: #f9f9f9;
+}
+
+.register {
     color: darkslategray;
+}
+
+.form {
+    font-family: IRAN;
+    font-weight: 600;
+    /* font-size: 1em; */
+    direction: rtl;
+    text-align: center;
 }
 
 .container-fluid {

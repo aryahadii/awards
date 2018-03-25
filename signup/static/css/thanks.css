@@ -1,0 +1,18 @@
+@import url(global.css);
+body {
+    direction: rtl;
+    font-family: IRANBlack;
+    /* font-weight: bold; */
+    background-color: #1abc9c;
+    color: #f9f9f9;
+}
+
+.row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
