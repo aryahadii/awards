@@ -1,0 +1,23 @@
+@import url(global.css);
+.header {
+    background-color: #1abc9c;
+    color: #ffffff;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #000;
+}
+
+.margin {
+    margin-bottom: 45px;
+}
+
+.footer {
+    color: darkslategray;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}

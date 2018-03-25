@@ -1,0 +1,46 @@
+@import url(../fonts/IRAN/css/fontiran.css);
+p {
+    direction: rtl;
+    /* text-align: right; */
+    font-family: IRAN;
+    font-weight: 600;
+    line-height: 1.6em;
+}
+
+ul {
+    direction: rtl;
+    text-align: right;
+    font-family: IRANSemiBold;
+    font-weight: normal;
+}
+
+.btn {
+    padding: 7px 42px;
+    border: 0 none;
+    font-family: IRANSemiBold;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-primary {
+    background-color: #1abc9c;
+    color: #ffffff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+    background: #187260;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:active:focus {
+    background: darkslategray;
+    box-shadow: none;
+}
